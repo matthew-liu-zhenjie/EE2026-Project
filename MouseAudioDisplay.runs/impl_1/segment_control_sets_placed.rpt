@@ -1,0 +1,93 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sun Mar 19 21:37:42 2023
+| Host         : mattliu-ZenBook-UX435EGL-UX435EGL running 64-bit Ubuntu 22.04.2 LTS
+| Command      : report_control_sets -verbose -file segment_control_sets_placed.rpt
+| Design       : segment
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    25 |
+| Unused register locations in slices containing registers |    60 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            2 |
+|      8 |            3 |
+|     10 |            2 |
+|     14 |            1 |
+|    16+ |           17 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             268 |           55 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             250 |           39 |
+| Yes          | No                    | No                     |             142 |           21 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             176 |           26 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------+------------------------------------------------------+------------------------------------------------------+------------------+----------------+
+|        Clock Signal       |                     Enable Signal                    |                   Set/Reset Signal                   | Slice Load Count | Bel Load Count |
++---------------------------+------------------------------------------------------+------------------------------------------------------+------------------+----------------+
+| ~oledClk_BUFG             |                                                      |                                                      |                1 |              2 |
+|  oledClk_BUFG             |                                                      |                                                      |                1 |              2 |
+|  CLOCK_IBUF_BUFG          |                                                      | Mouse/Inst_Ps2Interface/data_inter0                  |                1 |              8 |
+|  CLOCK_IBUF_BUFG          |                                                      | Mouse/Inst_Ps2Interface/clk_inter0                   |                1 |              8 |
+|  CLOCK_IBUF_BUFG          | Mouse/Inst_Ps2Interface/shift_frame                  | Mouse/Inst_Ps2Interface/reset_bit_count              |                2 |              8 |
+|  CLOCK_IBUF_BUFG          |                                                      | clock/counter_625mhz[4]_i_1_n_0                      |                1 |             10 |
+|  CLOCK_IBUF_BUFG          | Mouse/Inst_Ps2Interface/left_down_reg                |                                                      |                1 |             10 |
+|  CLOCK_IBUF_BUFG          | Mouse/Inst_Ps2Interface/delay_63clk_count[6]_i_2_n_0 | Mouse/Inst_Ps2Interface/delay_63clk_count[6]_i_1_n_0 |                2 |             14 |
+|  CLOCK_IBUF_BUFG          | Mouse/write_data                                     |                                                      |                3 |             16 |
+|  CLOCK_IBUF_BUFG          | Mouse/Inst_Ps2Interface/y_inc_reg[0]                 |                                                      |                3 |             16 |
+|  CLOCK_IBUF_BUFG          | Mouse/Inst_Ps2Interface/x_inc_reg[0]                 |                                                      |                2 |             16 |
+|  CLOCK_IBUF_BUFG          | Mouse/Inst_Ps2Interface/load_rx_data                 |                                                      |                2 |             16 |
+|  debounce_clk/debounceClk |                                                      |                                                      |                7 |             20 |
+|  CLOCK_IBUF_BUFG          | Mouse/Inst_Ps2Interface/frame[9]_i_1_n_0             |                                                      |                2 |             20 |
+|  CLOCK_IBUF_BUFG          | Mouse/Inst_Ps2Interface/delay_20us_count[10]_i_2_n_0 | Mouse/Inst_Ps2Interface/delay_20us_count[10]_i_1_n_0 |                4 |             22 |
+|  CLOCK_IBUF_BUFG          | Mouse/y_new_reg_n_0                                  |                                                      |                4 |             24 |
+|  CLOCK_IBUF_BUFG          | Mouse/x_new_reg_n_0                                  |                                                      |                4 |             24 |
+|  CLOCK_IBUF_BUFG          | Mouse/Inst_Ps2Interface/delay_100us_count[0]_i_2_n_0 | Mouse/Inst_Ps2Interface/clear                        |                4 |             28 |
+| ~oledClk_BUFG             |                                                      | reset_IBUF                                           |                5 |             34 |
+| ~oledClk_BUFG             | od0/delay[0]_i_1_n_0                                 | reset_IBUF                                           |                5 |             40 |
+|  CLOCK_IBUF_BUFG          |                                                      | Mouse/reset_timeout_cnt_reg_n_0                      |                7 |             48 |
+|  CLOCK_IBUF_BUFG          |                                                      | Mouse/reset_periodic_check_cnt__0                    |                8 |             52 |
+| ~oledClk_BUFG             | od0/state                                            | reset_IBUF                                           |                9 |             64 |
+| ~oledClk_BUFG             |                                                      | od0/spi_word[39]_i_1_n_0                             |               16 |             90 |
+|  CLOCK_IBUF_BUFG          |                                                      |                                                      |               46 |            244 |
++---------------------------+------------------------------------------------------+------------------------------------------------------+------------------+----------------+
+
+

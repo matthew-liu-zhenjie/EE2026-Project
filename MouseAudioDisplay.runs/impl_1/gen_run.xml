@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1679163779">
-  <File Type="BITSTR-BMM" Name="movingblocks_bd.bmm"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="movingblocks_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="movingblocks_timing_summary_init.rpt"/>
-  <File Type="ROUTE-PWR" Name="movingblocks_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="movingblocks.tcl"/>
-  <File Type="OPT-TIMING" Name="movingblocks_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="movingblocks_opt.dcp"/>
-  <File Type="ROUTE-PWR-SUM" Name="movingblocks_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="movingblocks_reports.tcl"/>
-  <File Type="OPT-DRC" Name="movingblocks_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="movingblocks.hwdef"/>
-  <File Type="PWROPT-DCP" Name="movingblocks_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="movingblocks_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="movingblocks_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="movingblocks_placed.dcp"/>
-  <File Type="PLACE-IO" Name="movingblocks_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="movingblocks_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="movingblocks_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="movingblocks_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="movingblocks_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="movingblocks_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="movingblocks_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BGN" Name="movingblocks.bgn"/>
-  <File Type="PLACE-TIMING" Name="movingblocks_timing_summary_placed.rpt"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="movingblocks_postplace_pwropt.dcp"/>
-  <File Type="BG-BIN" Name="movingblocks.bin"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="movingblocks_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="movingblocks_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="movingblocks_drc_physopted.rpt"/>
-  <File Type="BITSTR-MSK" Name="movingblocks.msk"/>
-  <File Type="PHYSOPT-TIMING" Name="movingblocks_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="movingblocks_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="movingblocks_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="movingblocks_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="movingblocks_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="movingblocks_drc_routed.pb"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="movingblocks.ltx"/>
-  <File Type="ROUTE-DRC-RPX" Name="movingblocks_drc_routed.rpx"/>
-  <File Type="BITSTR-MMI" Name="movingblocks.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="movingblocks_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="movingblocks_methodology_drc_routed.rpx"/>
-  <File Type="BITSTR-SYSDEF" Name="movingblocks.sysdef"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="movingblocks_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="movingblocks_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="movingblocks_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="movingblocks_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="movingblocks_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="movingblocks_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="movingblocks_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="movingblocks_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="movingblocks_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="movingblocks_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="movingblocks_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="movingblocks_bus_skew_routed.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="movingblocks_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="movingblocks_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="movingblocks_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="movingblocks_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="movingblocks_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="movingblocks_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="movingblocks_bus_skew_postroute_physopted.pb"/>
-  <File Type="BG-BIT" Name="movingblocks.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="movingblocks_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-RBT" Name="movingblocks.rbt"/>
-  <File Type="BITSTR-NKY" Name="movingblocks.nky"/>
-  <File Type="BG-DRC" Name="movingblocks.drc"/>
-  <File Type="RDI-RDI" Name="movingblocks.vdi"/>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1679232999">
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="segment.drc"/>
+  <File Type="BG-BGN" Name="segment.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="segment.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="segment.ltx"/>
+  <File Type="BITSTR-MMI" Name="segment.mmi"/>
+  <File Type="BITSTR-BMM" Name="segment_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="segment.nky"/>
+  <File Type="BITSTR-RBT" Name="segment.rbt"/>
+  <File Type="BITSTR-MSK" Name="segment.msk"/>
+  <File Type="BG-BIN" Name="segment.bin"/>
+  <File Type="BG-BIT" Name="segment.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="segment_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="segment_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="segment_bus_skew_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="segment.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="segment_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="segment_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="segment_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="segment_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="segment_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="segment_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="segment_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="segment_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="segment_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="segment_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="segment_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="segment_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="segment_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="segment_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="segment_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="segment_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="segment_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="segment_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="segment_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="segment_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="segment_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="segment_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="segment_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="segment_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="segment_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="segment_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="segment_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="segment_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="segment_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="segment_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="segment_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="segment_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="segment_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="segment_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="segment_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="segment_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="segment_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="segment_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="segment_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="segment_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="segment_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="segment_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="segment_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="segment.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="segment_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="segment_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="segment_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="segment_timing_summary_init.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="segment_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="segment_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="segment_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="segment.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/imports/Desktop/Oled_Display.v">
@@ -80,8 +80,10 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/blocks_display.v">
+    <File Path="$PSRCDIR/sources_1/imports/new/ThousandHz.v">
       <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026/Design_Templates/Design_Templates.srcs/sources_1/new/ThousandHz.v"/>
+        <Attr Name="ImportTime" Val="1678860933"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -94,23 +96,31 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/displayOLED.v">
+    <File Path="$PSRCDIR/sources_1/new/convertXY.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/movingblocks.v">
+    <File Path="$PSRCDIR/sources_1/imports/new/debouncer.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../EE2026/Design_Templates/Design_Templates.srcs/sources_1/new/debouncer.v"/>
+        <Attr Name="ImportTime" Val="1678797489"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/handleClick.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/blocksDisp2.v">
+    <File Path="$PSRCDIR/sources_1/new/mouseDisplay.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -118,7 +128,6 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/seg_blocks.v">
       <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -126,13 +135,59 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/segment_display.v">
       <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/Mouse_Control.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Mouse_Control.vhd"/>
+        <Attr Name="ImportTime" Val="1676185106"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Desktop/Ps2Interface.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Ps2Interface.vhd"/>
+        <Attr Name="ImportTime" Val="1667157208"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/segment.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/blocks_display.v">
+      <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/segment.v">
+    <File Path="$PSRCDIR/sources_1/new/displayOLED.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/movingblocks.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/blocksDisp2.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -201,24 +256,6 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/Desktop/Mouse_Control.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Mouse_Control.vhd"/>
-        <Attr Name="ImportTime" Val="1676185106"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/Desktop/Ps2Interface.vhd">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Ps2Interface.vhd"/>
-        <Attr Name="ImportTime" Val="1667157208"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PSRCDIR/sources_1/new/numbers.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
@@ -228,9 +265,17 @@
       </FileInfo>
     </File>
     <File Path="$PPRDIR/archive_project_summary.txt"/>
+    <File Path="$PSRCDIR/sources_1/new/twentyKHz.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="movingblocks"/>
+      <Option Name="TopModule" Val="segment"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
