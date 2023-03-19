@@ -1,0 +1,1 @@
+-wto "fad9f2eea5774d6091130b4bf65ba538" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "MouseCtl_behav" "xil_defaultlib.MouseCtl" -log "elaborate.log" 
